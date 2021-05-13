@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body class = "text-center">
+        <form class = "form-signin" action = "/" method = "POST">
+
+        <img class="mb-4" src="image/flux-weather-app-icon.jpg" alt="sun" width="72" height="72">
+
+        <h1 class="h3 mb-3 font-weight-normal">check weather by entering city name</h1>
+
+        <label type = "city" for="cityInput">Please enter the city Name:</label>
+        <input id = "cityInput" class = "form-control" name = "cityName" placeholder="City"  required autofocus>
+
+        <br>
+        
+        <button class = "btn btn-lg btn-primary btn-block" type = "submit">Get weather</button>
+        </form> 
+    </body>
+</html>
